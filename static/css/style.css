@@ -1,0 +1,82 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+ }
+ .container {
+    max-width: 80%;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    padding: 23px;
+    border-radius: 5px;
+ }
+ h1{
+     text-align: center;
+        font-size: 30px;
+        color:darkmagenta;
+     padding: 10px 0px 20px 60px ;
+     margin: 0px 0px 0px 0px ;
+ }
+ h2{
+    text-align: center;
+        font-size: 30px;
+        color:black;
+     padding: 10px 0px 20px 0px ;
+     margin: 0px 0px 0px 0px 
+ }
+    .container form{
+        text-align: center;
+    }
+    .container form label{
+        display: block;
+        font-size: 20px;
+        /* font-weight: bold; */
+        padding: 0px 0px 0px 0px ;
+        margin: 0px 0px 0px 0px ;
+    }
+    .container form input[type=text] {
+        padding: 10px 80px 20px 27px ;
+        margin: 8px 0px 0px 0px;
+        width: 50%;
+    }
+    .container form button{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 50%;
+    }
+    .container form input[type=submit]{
+        display: block;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 7px;
+        padding: 9px 2px 12px 0px ;
+        margin: 25px 0px 0px 430px;
+        cursor: pointer;
+        width: 10%;
+    }
+
+
+ li{
+        list-style: disc;
+        display: inline-block;
+        padding: 10px 20px;;
+        color: black;
+        background-color: rgb(142, 146, 201);
+        cursor: pointer;
+        border-radius: 7px;
+        margin: 0px 0px 0px 0px ;
+    }
+
+     ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+     li {
+        margin-bottom: 5px;
+      }
+    
